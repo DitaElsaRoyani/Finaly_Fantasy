@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.header {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+.leftside{
+    padding-left: 25px;
+}
+.rightside{
+    padding-right: 25px;
+}
+.content{
+    height: 300px;
+    width: 100%;
+    background: url("../assets/brief_explanation_background.png")no-repeat;
+    display: inline-block;
+    background-size: 100% 100%;
+    color: white;
+}
+.explanationtext {
+    padding-top: 5px;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#big{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.lowergambar{
+    height: 600px;
+    background: url(../assets/expansions_and_features_background.jpg);
+    display: inline-block;
+    background-size: 100% 100% ;
+    color: white;
+}
+
+#exfeat{
+    padding-top: 50px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.expanandfeat{
+    display: flex;
+    justify-content: center;
+}
+.bagiankiri{
+    margin-right: 25px;
+    width:auto;
+    padding-top: 50px;
+    border: 1px solid white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+.bagiankanan{
+    margin-left: 50px;
+    width: auto;
+    border: 1px solid white;
+    background: rgba(0, 0, 0, 0.5);
+}
+.semuanya{
+    width: auto;
+    border: 1px solid black;
+    text-align: center;
+    padding: 25px;
+    padding-bottom: 55px;
+}
+#tambahpadtop {
+    padding-top: 5px;
+}
+
+.footer {
+    padding-top: 5px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
